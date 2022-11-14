@@ -16,7 +16,10 @@ randomBtn.addEventListener('click', () => {
         // console.log(myMeal.strMeal);
         // console.log(myMeal.strArea);
         // console.log(myMeal.strInstructions);
-        result.innerHTML = `<h1>Random category: ${myMeal.strArea} ${myMeal.strIngredient3}</h1>`
+        result.innerHTML = `<h4>Random category: ${myMeal.strArea}</h4><br>
+        <h4>${myMeal.strMeal}</h4> <br>
+        <em>Search the recipe name to see all the details.</em>
+       `
         
 })});
 
